@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --white-1000: #fff;
+    --orange-100: #FE5F44;
+    --orange-500: #FF9B71;
+    --black-100:  #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white-1000);
+}
+
+.objeto {
+    position: absolute;
+    z-index: -1;
+    top: 250px;
+    right: 0px;
+    width: 956px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--black-100);    
+}
+
+nav > ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 110px;
+}
+
+ul > li {
+    font-family: 'Noto Sans';
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: -0.07em;
+    cursor: pointer;
+}
+
+li:hover {
+    color: var(--orange-100);
+    transition: 0.3s;
+}
+
+nav > h4 {
+    font-size: 48px;
+    font-family: 'Noto Sans';
+    font-size: 48px;
+    letter-spacing: -0.07em;
+}
+
+.linha {
+    width: 1300px;
+    height: 4px;
+    background: var(--black-100);
+    margin-top: 22px;
+}
+
+header {
+    padding: 60px 120px;
+}
+
+main > section {
+    margin: 0px 120px;
+}
+
+section > h1 {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 148px;
+    letter-spacing: -0.07em;
+    color: var(--black-100);
+
+    padding-bottom: 250px;
+}
+
+section > article {
+    padding: 56px;
+}
+
+article > h2 {
+    font-size: 48px;
+    font-family: 'Noto Sans';
+    font-size: 48px;
+    letter-spacing: -0.07em;   
+    color: var(--black-100);
+
+    padding-bottom: 30px;
+}
+
+article > p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: var(--black-100);
+
+    padding-bottom: 150px;
+}
+
+article > img {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+article > .card {
+    width: 630px;
+    height: 692.39px;
+
+    background: rgba(204, 204, 204, 0.1);
+    border-radius: 36px;
+
+    padding: 54px;
+
+    color: var(--black-100);
+    font-size: 26px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.card > p {
+    padding-top: 30px;
+}
+
+
+.card > .title-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.title-card> h4 {
+    font-size: 30px;
+    font-family: 'Noto Sans';
+    letter-spacing: -0.07em;   
+    color: var(--black-100);
+}
+
+.title-card > h3 {
+    font-family: 'Noto Sans';
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: -0.07em;
+    color: var(--orange-100);
+}
+
+.title-card > .quadrado {
+    height: 20px;
+    width: 20px;
+    background-color: var(--orange-100);
+}
+
+section > .planos {
+    display: flex;
+    gap: 50px;
+}
+
+.linha-conheca {
+    margin-bottom: 60px;
+    width: 1300px;
+    height: 4px;
+    background: var(--black-100);
+    margin-top: 22px;
+}
+
+section > .conheca-title {
+    font-size: 125px;
+    margin-top: 22px;
+}
+
+.conheca-title > span {
+    background-color: var(--orange-500);
+    width: 400px;
+    padding-bottom: 150px;
+}
+
+.logo > h4 {
+    font-family: 'Roboto';
+    font-size: 38px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+
+footer > div {
+    display: flex;
+}
+
+footer > div > ul {
+    list-style: none;
+}
+
+footer > div > ul > li {
+    font-size: 38px;
+}
+
+footer > div > ul > li > span {
+    color: var(--orange-100);
+}
+
+span:hover {
+    color: var(--black-100);
+    transition: 0.3s;
+}
+
+
+footer > .logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+
+    font-family: 'Roboto';
+    font-weight: lighter;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.07em;
+}
+
+.linha-footer {
+    margin-bottom: 60px;
+    width: 1300px;
+    height: 4px;
+    background: var(--black-100);
+    margin-top: 22px;
+    margin-left: 110px;
+}
