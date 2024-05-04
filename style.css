@@ -61,7 +61,7 @@ nav > h4 {
 }
 
 .linha {
-    width: 1300px;
+    width: 100%;
     height: 4px;
     background: var(--black-100);
     margin-top: 22px;
@@ -170,7 +170,7 @@ section > .planos {
 
 .linha-conheca {
     margin-bottom: 60px;
-    width: 1300px;
+    width: 100%;
     height: 4px;
     background: var(--black-100);
     margin-top: 22px;
@@ -240,7 +240,7 @@ footer > .logo {
 
 .linha-footer {
     margin-bottom: 60px;
-    width: 1300px;
+    width: 100%;
     height: 4px;
     background: var(--black-100);
     margin-top: 22px;
@@ -521,7 +521,7 @@ footer > .logo {
 /* Estilos para laptops e desktops pequenos (992px a 1199px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .objeto {
-      top: 260px;
+          top: 260px;
         right: 0px;
         width: 635px;
     }
@@ -626,5 +626,39 @@ footer > .logo {
 
 /* Estilos para desktops grandes e telas de alta resolução (1200px ou mais) */
 @media (min-width: 1200px) {
+    .linha-footer{
+        width: 85%;
+    }
 
+    section > .planos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article > img {
+        padding-bottom: 20px;
+    }
+
+    article > .card {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: auto;
+        padding: 60px;
+    }
+
+    section > h1 {
+        font-size: 110px;
+        padding-bottom: 200px;
+    }
+
+    .objeto {
+        top: 250px;
+        right: 0px;
+        width: 760px;
+    }
+
+    section > .conheca-title {
+        font-size: 94px;
+    }
 }
