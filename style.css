@@ -521,7 +521,7 @@ footer > .logo {
 /* Estilos para laptops e desktops pequenos (992px a 1199px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .objeto {
-        top: 260px;
+      top: 260px;
         right: 0px;
         width: 635px;
     }
