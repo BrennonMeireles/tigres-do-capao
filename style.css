@@ -625,7 +625,7 @@ footer > .logo {
 }
 
 /* Estilos para desktops grandes e telas de alta resolução (1200px ou mais) */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .linha-footer{
         width: 85%;
     }
@@ -661,4 +661,4 @@ footer > .logo {
     section > .conheca-title {
         font-size: 94px;
     }
-}
+} */
