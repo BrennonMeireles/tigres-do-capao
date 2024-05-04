@@ -313,7 +313,7 @@ footer > .logo {
         font-size: 10px;
         border-radius: 30px;
 
-        width: 90%;
+        width: 95%;
         height: auto;
         
         padding: 30px;
@@ -321,14 +321,15 @@ footer > .logo {
     
     .card > p {
         padding-top: 15px;
+        font-size: 14px;
     }
     
     .title-card> h4 {
-        font-size: 14px;
+        font-size: 16px;
     }
     
     .title-card > h3 {
-        font-size: 14px;
+        font-size: 16px;
     }
     
     .title-card > .quadrado {
@@ -392,4 +393,238 @@ footer > .logo {
         margin-top: 20px;
         margin-left: 30px;
     }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .objeto {
+        top: 200px;
+        right: 0px;
+        width: 540px;
+    }
+    
+    nav > ul {
+        gap: 50px;
+    }
+    
+    ul > li {
+        font-size: 28px;
+    }
+    
+    nav > h4 {
+        font-size: 28px;
+    }
+    
+    .linha {
+        width: 100%;
+        height: 3px;
+        /* margin-top: 5px; */
+    }
+    
+    header {
+        padding: 40px;
+    }
+
+    main > section {
+        margin: 40px;
+    }
+    
+    section > h1 {
+        font-size: 64px;
+        padding-bottom: 200px;
+    }
+    
+    section > article {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    article > h2 {
+        font-size: 40px;
+    }
+    
+    article > p {
+        font-size: 28px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+
+    article > .card {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        border-radius: 30px;
+
+        width: 95%;
+        height: auto;
+        
+        padding: 30px;
+    }
+    
+    .card > p {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+    .linha-conheca {
+        width: 100%;
+        height: 3px;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    section > .conheca-title {
+        font-size: 65px;
+    }
+    
+    .conheca-title > span {
+        padding-bottom: 70px;
+        margin: 0;
+    }
+    
+    .logo > h4 {
+        font-size: 28px;
+    }
+    
+    footer {
+        padding: 10px 30px ;
+        gap: 60px;
+    }
+    
+    footer > div > ul > li {
+        font-size: 28px;
+    }
+
+    .img-contato {
+        width: 150px;
+    }
+       
+    footer > .logo {
+        width: 150px;
+    }
+    
+    .direitos {
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .linha-footer {
+        margin-bottom: 10px;
+        width: 93%;
+        height: 3px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+}
+
+/* Estilos para laptops e desktops pequenos (992px a 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .objeto {
+        top: 260px;
+        right: 0px;
+        width: 635px;
+    }
+    
+    ul > li {
+        font-size: 30px;
+    }
+    
+    nav > h4 {
+        font-size: 30px;
+    }
+    
+    .linha {
+        width: 100%;
+        height: 3px;
+    }
+    
+    header {
+        padding: 60px;
+    }
+
+    main > section {
+        margin: 60px;
+    }
+    
+    section > h1 {
+        font-size: 100px;
+        padding-bottom: 200px;
+    }
+    
+    section > article {
+        padding: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    article > h2 {
+        font-size: 40px;
+    }
+    
+    article > p {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+
+    article > .card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+
+        width: 95%;
+        height: auto;
+    }
+    
+    .card > p {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+    .linha-conheca {
+        width: 100%;
+        height: 3px;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    section > .conheca-title {
+        font-size: 85px;
+    }
+
+    .conheca-title > span {
+        padding-bottom: 100px;
+    }
+    
+    .logo > h4 {
+        font-size: 28px;
+    }
+    
+    footer {
+        padding: 10px 30px ;
+    }
+
+    .img-contato {
+        width: 200px;
+    }
+    
+    .direitos {
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .linha-footer {
+        margin-bottom: 10px;
+        width: 93%;
+        height: 3px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+}
+
+/* Estilos para desktops grandes e telas de alta resolução (1200px ou mais) */
+@media (min-width: 1200px) {
+
 }
